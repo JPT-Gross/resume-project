@@ -205,6 +205,12 @@ article {
     background-color: #ffffff;
 }
 
+article h1 {
+    font-size: 30px;
+    color: #f6b311;
+    border-bottom: 2px solid #f6b311;
+}
+
 footer {
     font-size: 12px;
     padding-top: 40px;
