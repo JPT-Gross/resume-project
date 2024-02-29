@@ -202,13 +202,21 @@ article {
 }
 
 article {
-    background-color: #ffffff;
+    background-color: #e2e2e2;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 article h1 {
+    width: 25%;
     font-size: 30px;
     color: #f6b311;
     border-bottom: 2px solid #f6b311;
+    margin-bottom: 20px;
+}
+
+article p {
+    line-height: 20px;
 }
 
 footer {
