@@ -153,6 +153,10 @@ body {
     background-color: #1f38a8;
 }
 
+b {
+    font-weight: 725;
+}
+
 header,
 footer {
     overflow: hidden;
@@ -162,16 +166,18 @@ footer {
 header h1 {
     float: left;
     width: fit-content;
+    text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.5px;
     padding: 20px 0 0 0;
-    font-size: 48px;
-    border-top: 4px solid #f6b311;
+    font-size: 44px;
+    border-top: 4px solid #f09600;
 }
 
 header h2 {
     font-size: 24px;
     padding: 40px 0 20px 0;
+    white-space: nowrap;
     text-align: right;
 }
 
@@ -186,7 +192,7 @@ header a {
 }
 
 header a.active {
-    background-color: #f6b311;
+    background-color: #f09600;
     color: #111f5a;
 }
 
@@ -198,30 +204,92 @@ header a:hover {
 header,
 footer,
 article {
-    padding: 0 12.5% 0 12.5%;
+    padding: 0 15% 0 15%;
 }
 
 article {
-    background-color: #e2e2e2;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 22px;
 }
 
 article h1 {
     width: 25%;
-    font-size: 30px;
-    color: #f6b311;
-    border-bottom: 2px solid #f6b311;
+    font-size: 32px;
+    color: #f09600;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #f09600;
     margin-bottom: 20px;
 }
 
-article p {
-    line-height: 20px;
+article h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #585858;
+    border-bottom: 1.25px solid #585858;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    margin-top: 20px;
+}
+
+article p.dates {
+    float: right;
+}
+
+article h3 {
+    font-size: 20px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+article h4 {
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+article ul {
+    list-style: inside;
+    list-style-type: disc;
+    font-size: 15px;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: antiquewhite;
+    padding: 10px;
 }
 
 footer {
     font-size: 12px;
     padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+footer > h1 {
+    float: left;
+    text-transform: uppercase;
 }
 
 footer a {
@@ -232,7 +300,7 @@ footer a {
 }
 
 footer a.active {
-    color: #f6b311;
+    color: #f09600;
 }
 
 footer a:hover {
