@@ -215,12 +215,13 @@ article {
 }
 
 article h1 {
-    width: 25%;
-    font-size: 32px;
+    width: 33%;
+    font-size: 54px;
     color: #f09600;
     padding-bottom: 2px;
     border-bottom: 2px solid #f09600;
     margin-bottom: 20px;
+    line-height: 1;
 }
 
 article h2 {
@@ -279,12 +280,23 @@ article ul {
 .content {
     background-color: antiquewhite;
     padding: 10px;
+    min-height: 350px;
+}
+
+.content h3 {
+    text-transform: none;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+}
+
+.content p {
+    font-size: 18px;
 }
 
 footer {
     font-size: 12px;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 footer > h1 {
