@@ -318,3 +318,21 @@ footer a.active {
 footer a:hover {
     color: #000000;
 }
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+
+    header a {
+        float: none;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
