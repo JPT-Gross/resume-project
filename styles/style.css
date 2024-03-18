@@ -181,9 +181,11 @@ header h2 {
     text-align: right;
 }
 
-header a {
-    float: right;
-    display: block;
+nav {
+    display: flex;
+}
+
+nav a {
     color: #ffffff;
     text-align: center;
     padding: 14px 16px;
@@ -191,19 +193,20 @@ header a {
     text-decoration: none;
 }
 
-header a.active {
+nav a.active {
     background-color: #f09600;
     color: #111f5a;
 }
 
-header a:hover {
+nav a:hover {
     background-color: #000000;
     color: #ffffff;
 }
 
 header,
-footer,
-article {
+nav,
+article,
+footer {
     padding: 0 15% 0 15%;
 }
 
