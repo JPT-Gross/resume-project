@@ -355,15 +355,23 @@ input[type='submit']:hover {
     padding: 20px;
 }
 
+@media screen and (max-width: 1150px) {
+    header h2 {
+        clear: left;
+        text-align: unset;
+        padding-top: 20px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .column {
         width: 50%;
     }
 
-    header a {
-        float: none;
-        display: flex;
+    nav {
+        justify-content: unset;
         flex-direction: column;
+        padding: 0;
     }
 }
 
