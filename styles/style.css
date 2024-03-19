@@ -221,6 +221,7 @@ article {
     padding-top: 20px;
     padding-bottom: 20px;
     line-height: 22px;
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.75) inset;
 }
 
 article h1 {
@@ -306,6 +307,7 @@ footer {
     font-size: 12px;
     padding-top: 40px;
     padding-bottom: 40px;
+    box-shadow: 0 -5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 footer > h1 {
