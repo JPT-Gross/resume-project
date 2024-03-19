@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Matthew L. Gross</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,24 +32,26 @@
         <!-- Main -->
 
         <article>
-            <h3>Contact Form</h3>
+            <h1>Contact Me:</h1>
 
             <div class="container">
-                <form action="/action_page.php">
+                <form action="https://formspree.io/f/mjvneoyk" method="POST">
                     <label for="name">Name</label>
                     <input
                         type="text"
                         id="name"
                         name="name"
                         placeholder="Your name..."
+                        required
                     />
 
                     <label for="email">Email</label>
                     <input
-                        type="text"
+                        type="email"
                         id="email"
                         name="email"
                         placeholder="name@example.com"
+                        required
                     />
 
                     <label for="subject">Subject</label>
@@ -57,6 +60,7 @@
                         id="subject"
                         name="subject"
                         placeholder="SUBJECT"
+                        required
                     />
 
                     <label for="body">Body</label>
@@ -65,6 +69,7 @@
                         name="body"
                         placeholder="Your message here..."
                         style="height: 200px"
+                        required
                     ></textarea>
 
                     <input type="submit" value="Submit" />
@@ -73,7 +78,7 @@
         </article>
 
         <footer>
-            <h1>©Matthew L. Gross</h1>
+            <h1>©Matthew L. Gross MMXXIV</h1>
             <a class="active" href="contact.html">Contact</a>
             <a href="portfolio.html">Portfolio</a>
             <a href="resume.html">Résumé</a>

@@ -145,12 +145,17 @@ table {
 End CSS Reset
 ===============================================================================
 */
-body {
-    font-family: 'Merriweather', serif;
+body,
+textarea {
+    font-family: 'Merriweather', 'Garamond', serif;
     font-weight: 400;
     font-style: normal;
     margin: 0px;
     background-color: #1f38a8;
+}
+
+textarea {
+    background-color: #ffffff;
 }
 
 b {
@@ -219,7 +224,7 @@ article {
 }
 
 article h1 {
-    width: 33%;
+    width: fit-content;
     font-size: 54px;
     color: #f09600;
     padding-bottom: 2px;
@@ -323,6 +328,7 @@ footer a:hover {
     color: #000000;
 }
 
+input[type='email'],
 input[type='text'],
 select,
 textarea {
@@ -337,16 +343,15 @@ textarea {
 }
 
 input[type='submit'] {
-    background-color: #04aa6d;
+    background-color: #111f5a;
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
 }
 
 input[type='submit']:hover {
-    background-color: #45a049;
+    background-color: #000000;
 }
 
 .container {
