@@ -290,7 +290,7 @@ article ul {
 .content {
     background-color: antiquewhite;
     padding: 10px;
-    min-height: 350px;
+    min-height: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
